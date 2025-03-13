@@ -5,7 +5,7 @@ const App = () => {
     <main className="bg-slate-300/20 h-[100vh]">
       <Router>
         <Routes>
-          <Route path="/" element={<Auth/>} />
+          <Route path="/quick-aid" element={<Auth/>} />
         </Routes>
       </Router>
     </main>
